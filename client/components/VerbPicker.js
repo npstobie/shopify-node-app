@@ -21,6 +21,7 @@ class VerbPicker extends Component {
   }
 
   onAction(verb) {
+    console.log(this.props)
     this.props.dispatch(updateVerb(verb))
     this.close()
   }
